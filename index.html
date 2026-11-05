@@ -1,0 +1,41 @@
+<!--
+ Image Gallery
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frames | Image Gallery | </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <p class="badge">Enjoy with frame </p>
+    <h1>Frames</h1>
+    <p>Twenty photos in five themes. Pick a theme to filter, then click any photo to view it full size.</p>
+    <nav class="filters" id="filters" aria-label="Filter images by theme"></nav>
+  </header>
+
+  <main>
+    <section class="grid" id="grid" aria-live="polite"></section>
+  </main>
+
+  <footer> Frontend Development</footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-btn close" id="close" aria-label="Close viewer">&times;</button>
+    <button class="lb-btn prev" id="prev" aria-label="Previous image">&#8249;</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-btn next" id="next" aria-label="Next image">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
