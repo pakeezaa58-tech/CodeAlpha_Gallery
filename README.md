@@ -1,8 +1,6 @@
 # CodeAlpha_Gallery
-# CodeAlpha Image Gallery (Frames)
-**Task 1** of the CodeAlpha Frontend Development Internship: a modern, responsive photo gallery built with HTML, CSS and JavaScript.
 ## Live demo
-**https://pakeezaa58-tech.github.io/CodeAlpha_ImageGallery/**
+https://pakeezaa58-tech.github.io/CodeAlpha_Gallery/
 ## Features
 - 24 real photographs in two categories: **Nature** and **Architecture**
 - Full-screen hero section with a parallax effect
